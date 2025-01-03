@@ -1,0 +1,25 @@
+{
+  "short_name": "Instagram Pixel",
+  "name": "Instagram Pixel Purchase App",
+  "icons": [
+    {
+      "src": "icoon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "image.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "image.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#3B82F6",
+  "background_color": "#FFFFFF"
+}

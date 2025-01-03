@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #168fc2;
+    margin-bottom: 20px;
+  }
+  
+  .pixel-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .pixel {
+    width: 100px;
+    height: 100px;
+    background-color: #12c7ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pixel:hover {
+    background-color: #168fc2;
+  }
+  
+  .pixel.purchased {
+    background-color: #32cd32;
+  }
+  
+  .pixel span {
+    font-weight: bold;
+  }
+  
