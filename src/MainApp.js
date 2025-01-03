@@ -38,6 +38,7 @@ function LandingPage() {
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl font-medium opacity-90">
           Buy a pixel and showcase your Instagram profile like never before!
+          {/* test case 1 */}
         </p>
         <Link to="/pixels">
           <button className="bg-[#F58529] text-white py-3 px-8 rounded-full text-lg md:text-xl hover:bg-[#DD2A7B] transition duration-300 ease-in-out">
