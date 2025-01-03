@@ -44,6 +44,27 @@ function LandingPage() {
             Buy Pixels
           </button>
         </Link>
+        <p className="text-sm sm:text-base md:text-lg mt-2">
+          <a
+            href="https://merchant.razorpay.com/policy/PXuSYqJCzeiD7L/terms"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#ffffff] underline"
+          >
+            Terms & Conditions
+          </a>
+        </p>
+        <p className="text-sm sm:text-base md:text-lg mt-2">
+          <a
+            href="https://merchant.razorpay.com/policy/PXuSYqJCzeiD7L/refund"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#ffffff] underline"
+          >
+            Cancellation and Refund
+          </a>
+        </p>
+
       </div>
 
       {/* Footer */}
@@ -51,6 +72,11 @@ function LandingPage() {
         <div className="text-center">
           <p className="text-sm sm:text-base md:text-lg">
             © 2025 Instagram Pixel Purchase | All rights reserved
+          </p>
+          <p className="text-sm sm:text-base md:text-lg mt-2">
+            <a href="https://merchant.razorpay.com/policy/PXuSYqJCzeiD7L/terms" target="_blank" rel="noopener noreferrer" className="hover:text-[#DD2A7B]">
+              Terms & Conditions
+            </a>
           </p>
         </div>
       </footer>
